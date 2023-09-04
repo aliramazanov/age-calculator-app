@@ -68,7 +68,7 @@ inputButton.addEventListener("click", () => {
   const yearsResult = document.getElementById("years-result");
   yearsResult.textContent = `${yearsPassed} ${yearsWord}`;
 
-  let monthsPassed = Math.abs(thisMonth - monthInput - 1);
+  let monthsPassed = Math.abs(thisMonth - monthInput);
   let monthsWord = "months";
   if (monthsPassed === 1 || monthsPassed === 0) {
     monthsWord = "month";
