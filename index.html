@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="content-wrapper">
+        <div class="input-part">
+          <div class="inputs-wrapper">
+            <label for="day-input">D A Y</label>
+            <input
+              id="day-input"
+              class="input-details"
+              type="text"
+              placeholder="DD"
+            />
+          </div>
+          <div class="inputs-wrapper">
+            <label for="month-input">M O N T H</label>
+            <input
+              id="month-input"
+              class="input-details"
+              type="text"
+              placeholder="MM"
+            />
+          </div>
+          <div class="inputs-wrapper">
+            <label for="year-input">Y E A R</label>
+            <input
+              id="year-input"
+              class="input-details"
+              type="text"
+              placeholder="YYYY"
+            />
+          </div>
+        </div>
+        <div class="line-and-button">
+          <div class="line-wrapper">
+            <hr class="line-element" />
+          </div>
+          <div class="button-wrapper">
+            <button class="input-button">
+              <img src="./assets/images/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="output-part">
+          <span id="years-result" class="results"
+            ><span class="dash"> - - </span> years</span
+          >
+          <span id="months-result" class="results"
+            ><span class="dash"> - - </span> months</span
+          >
+          <span id="days-result" class="results"
+            ><span class="dash"> - - </span> days</span
+          >
+        </div>
+      </div>
+    </div>
+    <script defer src="./script.js"></script>
+  </body>
+</html>

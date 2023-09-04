@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  width: 62rem;
+  height: 48rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 15rem;
+}
+
+.input-part {
+  display: flex;
+  font-size: 2rem;
+}
+
+.inputs-wrapper {
+  margin-top: 0.8rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3rem;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: hsl(0, 1%, 44%);
+  margin-bottom: 0.6rem;
+}
+
+.input-details {
+  font-size: 2.3rem;
+  width: 11.5rem;
+  padding-left: 1.6rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 0.5rem;
+  color: hsl(0, 1%, 44%);
+  font-weight: bold;
+  outline: none;
+}
+
+.input-details:focus {
+  border: 1px solid rgb(133, 77, 255);
+  color: black;
+}
+
+.line-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line-element {
+  height: 1px;
+  background-color: rgb(225, 225, 225);
+  margin: 0;
+  border: none;
+  width: 47rem;
+}
+
+.input-button {
+  padding: 1.2rem;
+  background-color: rgb(133, 77, 255);
+  color: white;
+  border-radius: 50%;
+  border: transparent;
+}
+
+.input-button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.output-part {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  font-size: 8rem;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: -4px;
+}
+
+.dash {
+  font-weight: bold;
+  font-size: 8rem;
+  color: rgb(133, 77, 255);
+  letter-spacing: -4px;
+}
