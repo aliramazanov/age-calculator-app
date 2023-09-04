@@ -116,3 +116,9 @@ label {
   color: rgb(133, 77, 255);
   letter-spacing: -4px;
 }
+
+.error-message {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: red;
+}
