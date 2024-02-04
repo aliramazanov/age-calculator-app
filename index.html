@@ -13,9 +13,9 @@
     <title>Age Calculator</title>
   </head>
   <body>
-    <div class="app">
+    <main class="app">
       <div class="content-wrapper">
-        <div class="input-part">
+        <section class="input-part">
           <div class="inputs-wrapper">
             <label for="day-input">D A Y</label>
             <input
@@ -46,18 +46,18 @@
             />
             <span id="year-error" class="error-message"></span>
           </div>
-        </div>
+        </section>
         <div class="line-and-button">
           <div class="line-wrapper">
             <hr class="line-element" />
           </div>
           <div class="button-wrapper">
-            <button class="input-button">
-              <img src="./images/icon-arrow.svg" alt="" />
+            <button aria-label="Calculate Age" class="input-button">
+              <img src="./images/icon-arrow.svg" alt="Arrow" />
             </button>
           </div>
         </div>
-        <div class="output-part">
+        <section class="output-part">
           <span id="years-result" class="results"
             ><span class="dash"> - - </span> years</span
           >
@@ -67,9 +67,9 @@
           <span id="days-result" class="results"
             ><span class="dash"> - - </span> days</span
           >
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
     <script defer src="./script.js"></script>
   </body>
 </html>
